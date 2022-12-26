@@ -1,0 +1,114 @@
+.login {
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .card {
+    width: 90vh;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    height: 500px;
+    overflow: hidden;
+    // box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+      rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+      rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    .left {
+      flex: 1;
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(https://images.pexels.com/photos/2679814/pexels-photo-2679814.jpeg?auto=compress&cs=tinysrgb&w=600)
+          center;
+      background-size: cover;
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      h1 {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: baseline;
+        font-family: "Pacifico";
+        font-size: 60px;
+        color: #fff;
+      }
+      p {
+        color: #ececec;
+        font-family: "Roboto";
+        font-size: 19px;
+        margin-top: 15px;
+      }
+      span {
+        font-size: 14px;
+        margin-top: 170px;
+        font-family: "Roboto";
+        color: #fff;
+      }
+      button {
+        margin-top: 20px;
+        width: 150px;
+        height: 40px;
+        font-family: "Roboto";
+        font-weight: 900;
+        font-size: 12px;
+        color: #fff;
+        letter-spacing: 1px;
+        background-color: #4a4848;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        &:hover {
+          background-color: black;
+        }
+      }
+    }
+    .right {
+      flex: 1;
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      // margin-top: 30px;
+      justify-content: center;
+      h1 {
+        color: #4a4848;
+        font-family: "Roboto";
+        letter-spacing: 1px;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        input {
+          border: none;
+          border-bottom: 1px solid lightgray;
+          padding: 20px 10px;
+          font-size: 14px;
+          font-family: "Roboto";
+          &:focus {
+            outline: none;
+          }
+        }
+        button {
+          width: 150px;
+          height: 40px;
+          font-family: "Roboto";
+          font-weight: 900;
+          font-size: 12px;
+          color: #fff;
+          letter-spacing: 1px;
+          background-color: #1d9be9;
+          border: none;
+          border-radius: 20px;
+          cursor: pointer;
+          &:hover {
+            background-color: rgb(52, 91, 180);
+          }
+        }
+      }
+    }
+  }
+}
