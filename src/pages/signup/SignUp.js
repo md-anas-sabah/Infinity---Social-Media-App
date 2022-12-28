@@ -24,7 +24,7 @@ function SignUp() {
           </h1>
           <p>Connect With The World</p>
           <span>Do you have an account?</span>
-          <Link to="/">
+          <Link to="/login">
             <button>Sign In</button>
           </Link>
         </div>
