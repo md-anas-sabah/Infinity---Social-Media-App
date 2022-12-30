@@ -1,11 +1,12 @@
 .leftBar {
   display: flex;
   flex-direction: column;
-    flex: 2;
+  flex: 2;
   background-color: #fff;
-  margin-top: 1px;
-  height: 92.6vh;
-  overflow-y: scroll;
+  top: 55px;
+  height: calc(100vh - 56px);
+  position: sticky;
+
 
   .container {
     padding: 20px;
@@ -17,8 +18,9 @@
       span {
         margin-top: 3px;
         color: grey;
-        font-weight: 700;
+        font-weight: 500;
         font-family: "Roboto";
+        font-size: 10px;
       }
       .user {
         display: flex;
@@ -30,6 +32,7 @@
         border-radius: 50px;
         border: 1px solid black;
         gap: 10px;
+
         p {
           font-family: "Roboto";
           font-weight: 600;
@@ -42,8 +45,8 @@
         align-items: center;
         gap: 10px;
         img {
-          height: 30px;
-          width: 30px;
+          height: 25px;
+          width: 25px;
         }
         span {
           color: black;

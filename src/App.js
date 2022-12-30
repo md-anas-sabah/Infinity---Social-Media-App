@@ -7,8 +7,6 @@ import Profile from "./pages/profile/Profile";
 import {
   createBrowserRouter,
   RouterProvider,
-  Route,
-  Link,
   Outlet,
   Navigate,
 } from "react-router-dom";

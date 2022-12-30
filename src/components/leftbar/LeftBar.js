@@ -18,7 +18,13 @@ function LeftBar() {
       <div className="container">
         <div className="menu">
           <div className="user">
-            <Avatar style={{ width: "30px", height: "30px", color: "blue" }} />
+            <Avatar
+              style={{
+                width: "30px",
+                height: "30px",
+                color: "blue",
+              }}
+            />
             <p>Anas Sabah</p>
           </div>
           <div className="item">
