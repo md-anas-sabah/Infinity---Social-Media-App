@@ -1,9 +1,11 @@
 .rightBar {
   flex: 3;
   // background-color: #fff;
-  top: 55px;
+  top: 52px;
   height: calc(100vh - 56px);
   position: sticky;
+  overflow-y: scroll;
+
   .container {
     padding: 20px;
     .item {
@@ -22,6 +24,7 @@
         justify-content: space-between;
         align-items: center;
         margin: 20px 0px;
+        position: relative;
         .userInfo {
           display: flex;
           justify-content: center;
@@ -38,6 +41,15 @@
             overflow: hidden;
             object-fit: contain;
             border: 1px solid #5271ff;
+          }
+          .online{
+            width: 12px;
+            background-color: limegreen;
+            height: 12px;
+            position: absolute;
+            border-radius: 50px;
+            left: 28px;
+            top: 0;
           }
           p {
             font-size: 10px;

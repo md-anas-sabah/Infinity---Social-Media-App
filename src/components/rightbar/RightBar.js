@@ -33,6 +33,29 @@ function RightBar() {
               <button>Dismiss</button>
             </div>
           </div>
+          <div className="user">
+            <div className="userInfo">
+              <img
+                src="https://www.muraldecal.com/en/img/drball027-jpg/folder/products-listado-merchanthover/wall-stickers-for-kids-dragon-ball-son-goku-attack-ii.jpg"
+                alt=""
+              />
+              <span>Son Goku</span>
+            </div>
+            <div className="buttons">
+              <button>Follow</button>
+              <button>Dismiss</button>
+            </div>
+          </div>
+          <div className="user">
+            <div className="userInfo">
+              <img src="https://images.alphacoders.com/238/238761.png" alt="" />
+              <span>Ichigo Kurosaki</span>
+            </div>
+            <div className="buttons">
+              <button>Follow</button>
+              <button>Dismiss</button>
+            </div>
+          </div>
         </div>
 
         <div className="item">
@@ -84,6 +107,26 @@ function RightBar() {
               </p>
             </div>
             <span>1 min ago</span>
+          </div>
+        </div>
+        <div className="item">
+          <span>Online Friends</span>
+          <div className="user">
+            <div className="userInfo">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNXxHX-U8tc16xB1lV27ClD0OlRtu9T_N7xQ&usqp=CAU"
+                alt=""
+              />
+              <div className="online"></div>
+              <span>Naruto Uzumaki</span>
+            </div>
+          </div>
+          <div className="user">
+            <div className="userInfo">
+              <img src="https://images.alphacoders.com/238/238761.png" alt="" />
+              <div className="online"></div>
+              <span>Ichigo Kurosaki</span>
+            </div>
           </div>
         </div>
       </div>
